@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	char alphabets_mixed[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph_mixed[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(alphabets_mixed[i]);
+		putchar(alph_mixed[i]);
 	}
 	putchar('\n');
 	return (0);
