@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
+<<<<<<< HEAD
  * main - Prints numbers between 0 to 89.
+=======
+ * main - Prints numbers between 00 to 89.
+ *
+>>>>>>> 1b4694b8a7e17b4bf5617afc0a0a26311f48e175
  * Return: Always 0 (Success)
-*/
-
+ */
 int main(void)
 {
 	int i, e;
 
-	i = 48;	
-       	e = 48;
+	i = 48;
+	e = 48;
 
 	while (e < 58)
 	{
@@ -34,5 +38,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
