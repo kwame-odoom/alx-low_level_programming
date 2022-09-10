@@ -2,15 +2,15 @@
 
 /**
  * main - Prints numbers between 00 to 89.
+ *
  * Return: Always 0 (Success)
-*/
-
+ */
 int main(void)
 {
 	int i, e;
 
-	i = 48;	
-       	e = 48;
+	i = 48;
+	e = 48;
 
 	while (e < 58)
 	{
@@ -34,5 +34,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
