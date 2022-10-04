@@ -1,1 +1,1 @@
-This repository contains files and scripts written in C language
+This directory contains files written in C about Malloc
